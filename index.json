@@ -141,27 +141,34 @@
       "LEDS",
       "MODES",
       "OSD",
+      "OTHER",
       "RATES",
       "TUNE",
       "VTX"
     ],
     "author": [
-      "Betaflight"
+      "Betaflight",
+      "Teez"
     ],
     "keywords": [
       "actual",
       "adjustments",
+      "angle",
       "aux",
       "basic",
+      "beeper",
       "clear",
       "default",
       "defaults",
+      "dji",
+      "dshot",
       "filter",
       "filters",
       "leds",
       "mode",
       "modes",
       "OSD",
+      "other",
       "pid",
       "rates",
       "reset",
@@ -230,6 +237,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/modes/teez_zorro_elrs.txt",
+      "hash": "042a6cba396d289ece5756b81d4599ef56a8dd7f893cdba69e816452a06641b3",
+      "title": "Teez 4.3 Channel map, modes, adjustment and fallback settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Teez",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "title": "Default 4.3 OSD settings",
@@ -244,6 +270,39 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/teez_osd_dji.txt",
+      "hash": "8a1361190dd800171bab88cf42287cb199993e34f030e8bd7dd0197c668ba6eb",
+      "title": "Default 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "dji",
+        "OSD"
+      ],
+      "author": "Teez",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/teez_other_defaults.txt",
+      "hash": "d7efaf2f7f4dcc8d233e96c0c49206322532912b95db914fb6ebfb430ba36684",
+      "title": "Some default settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "other",
+        "beeper",
+        "angle"
+      ],
+      "author": "Teez",
       "priority": 0
     },
     {
@@ -263,6 +322,22 @@
       ],
       "author": "Betaflight",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rates/teez_freestyle_rates.txt",
+      "hash": "880080706f3e9ac46cb96d7cf5334fd842de0b78377a5b8c0f007e70c962a1af",
+      "title": "Default rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rates",
+        "actual"
+      ],
+      "author": "Teez",
+      "priority": 10000
     },
     {
       "fullPath": "presets/4.3/tune/defaults.txt",
@@ -302,6 +377,22 @@
         "filters"
       ],
       "author": "Betaflight",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/tune/teez_motor_tune.txt",
+      "hash": "2f4d974f0f425652d2141a1094f976681dba8504dd5ef6ff18f31a1608a03389",
+      "title": "TUNE motor protocols",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "dshot"
+      ],
+      "author": "Teez",
       "priority": 1000000000000
     },
     {

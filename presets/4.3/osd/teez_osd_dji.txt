@@ -1,0 +1,25 @@
+#$ TITLE: Default 4.3 OSD settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: dji, OSD
+#$ AUTHOR: Teez
+#$ DESCRIPTION: Setup OSD DJI available values. Make sure to have Custom OSD enabled in your DJI Goggles for Betaflight elements to display.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: OSD Elements Include:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Includes: Vbat, Amps, MaH drawn, etc...
+#$ DESCRIPTION:
+#$ DESCRIPTION: Edited 04.03.2023 by Teez
+
+set osd_rssi_pos = 2533
+set osd_link_quality_pos = 229
+set osd_flymode_pos = 2490
+set osd_crosshairs_pos = 14575
+set osd_current_pos = 2534
+set osd_mah_drawn_pos = 2544
+set osd_craft_name_pos = 2049
+set osd_power_pos = 246
+set osd_avg_cell_voltage_pos = 2546
+set osd_battery_usage_pos = 488
+set osd_disarmed_pos = 2060

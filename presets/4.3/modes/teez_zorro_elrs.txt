@@ -1,0 +1,105 @@
+#$ TITLE: Teez 4.3 Channel map, modes, adjustment and fallback settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: mode, modes, adjustments, aux, switch
+#$ AUTHOR: Teez
+#$ DESCRIPTION: Setup of serialrx, aux switch, chanels map, modes and rxfail channel fallback for Radiomaster Zorro (Channel map = AETR1234)
+#$ DESCRIPTION:
+#$ DESCRIPTION: Aux switch (set on radio recuirerd for proper work):
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: CH5  Arm
+#$ DESCRIPTION: CH6  Pream
+#$ DESCRIPTION: CH7  Mode
+#$ DESCRIPTION: CH8  Turtle mode
+#$ DESCRIPTION: CH9  Buzzer
+#$ DESCRIPTION: CH10 Blackbox erase
+#$ DESCRIPTION:
+#$ DESCRIPTION: Channel fallback settings:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Unmute buzzer when fallback
+#$ DESCRIPTION:
+#$ DESCRIPTION: Edited 04.03.2023 by Teez
+
+# master
+set serialrx_provider = CRSF
+
+# map
+map AETR1234
+
+# aux switch settings
+
+aux 0 0 0 900 1300 0 0
+aux 1 1 2 1700 2100 0 0
+aux 2 13 4 1700 2100 0 0
+aux 3 26 0 900 1150 0 0
+aux 4 31 5 1850 2100 0 0
+aux 5 35 3 900 1325 0 0
+aux 6 36 1 1750 2100 0 0
+aux 7 52 4 900 1300 0 0
+aux 8 0 0 900 900 0 0
+aux 9 0 0 900 900 0 0
+aux 10 0 0 900 900 0 0
+aux 11 0 0 900 900 0 0
+aux 12 0 0 900 900 0 0
+aux 13 0 0 900 900 0 0
+aux 14 0 0 900 900 0 0
+aux 15 0 0 900 900 0 0
+aux 16 0 0 900 900 0 0
+aux 17 0 0 900 900 0 0
+aux 18 0 0 900 900 0 0
+aux 19 0 0 900 900 0 0
+
+# adjustment ranges
+
+adjrange 0 0 0 900 900 0 0 0 0
+adjrange 1 0 0 900 900 0 0 0 0
+adjrange 2 0 0 900 900 0 0 0 0
+adjrange 3 0 0 900 900 0 0 0 0
+adjrange 4 0 0 900 900 0 0 0 0
+adjrange 5 0 0 900 900 0 0 0 0
+adjrange 6 0 0 900 900 0 0 0 0
+adjrange 7 0 0 900 900 0 0 0 0
+adjrange 8 0 0 900 900 0 0 0 0
+adjrange 9 0 0 900 900 0 0 0 0
+adjrange 10 0 0 900 900 0 0 0 0
+adjrange 11 0 0 900 900 0 0 0 0
+adjrange 12 0 0 900 900 0 0 0 0
+adjrange 13 0 0 900 900 0 0 0 0
+adjrange 14 0 0 900 900 0 0 0 0
+adjrange 15 0 0 900 900 0 0 0 0
+adjrange 16 0 0 900 900 0 0 0 0
+adjrange 17 0 0 900 900 0 0 0 0
+adjrange 18 0 0 900 900 0 0 0 0
+adjrange 19 0 0 900 900 0 0 0 0
+adjrange 20 0 0 900 900 0 0 0 0
+adjrange 21 0 0 900 900 0 0 0 0
+adjrange 22 0 0 900 900 0 0 0 0
+adjrange 23 0 0 900 900 0 0 0 0
+adjrange 24 0 0 900 900 0 0 0 0
+adjrange 25 0 0 900 900 0 0 0 0
+adjrange 26 0 0 900 900 0 0 0 0
+adjrange 27 0 0 900 900 0 0 0 0
+adjrange 28 0 0 900 900 0 0 0 0
+adjrange 29 0 0 900 900 0 0 0 0
+
+# rxfail channel fallback settings
+rxfail 0 a
+rxfail 1 a
+rxfail 2 a
+rxfail 3 a
+rxfail 4 h
+rxfail 5 h
+rxfail 6 h
+rxfail 7 h
+rxfail 8 s 2000
+rxfail 9 h
+rxfail 10 h
+rxfail 11 h
+rxfail 12 h
+rxfail 13 h
+rxfail 14 h
+rxfail 15 h
+rxfail 16 h
+rxfail 17 h
+

@@ -1,0 +1,16 @@
+#$ TITLE:  TUNE motor protocols
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: tune, dshot
+#$ AUTHOR: Teez
+#$ DESCRIPTION: Settings:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: - reversed motors
+#$ DESCRIPTION: - bidirectional DSHOT600
+#$ DESCRIPTION:
+#$ DESCRIPTION: Edited 04.03.2023 by Teez
+
+set yaw_motors_reversed = ON
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT600

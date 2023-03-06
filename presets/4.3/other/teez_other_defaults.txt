@@ -1,0 +1,23 @@
+#$ TITLE: Some default settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: other, beeper, angle, 
+#$ AUTHOR: Teez
+#$ DESCRIPTION: Settings:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: - arm angle = 180
+#$ DESCRIPTION: - Disable magnetometer and barometer
+#$ DESCRIPTION: - Disable beeper when FC is connected to USB
+#$ DESCRIPTION:
+#$ DESCRIPTION: Edited 04.03.2023 by Teez
+
+# beeper
+beeper -ON_USB
+
+#hardware
+set mag_hardware = NONE
+set baro_hardware = NONE
+
+#arm angle
+set small_angle = 180
